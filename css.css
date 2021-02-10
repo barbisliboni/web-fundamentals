@@ -1,0 +1,100 @@
+#menu li{
+    display: inline;
+    font-family: Franklin Gothic Medium;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.font-style{
+    font-family:Franklin Gothic Medium;
+    text-align: center;
+}
+
+.style-text{
+    font-family:Franklin Gothic Medium;
+    text-align: center;
+    text-shadow: 5px 5px 12px #FCAF17;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.main-nav{
+    width:100%;
+    height:4rem;
+    background-color: black;
+    padding-top:0.5rem;
+}
+
+.img-shadow{
+    border: 1px solid #333;
+    box-shadow: 10px 0 7px -2px black;
+    margin-bottom:3rem;
+    flex:50%;
+    width:auto;
+    height:auto;
+    margin-right:2rem;
+    margin-left:1rem;
+    max-width: 56rem ;
+}
+
+
+@media (max-width: 70rem) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .form{
+      text-align: center;
+  }
+
+.form-name{
+    font-family:Franklin Gothic Medium; 
+    font-size: 1.2rem;
+    margin-left:1rem;
+}
+
+.form-area{
+    border-radius: 0.5rem;  
+    border-color: rgba(41, 39, 39, 0.534);
+}
+
+.button-send{
+    border-radius: 0.5rem; 
+    border-color: white; 
+    padding: 0.5rem; 
+    width: 6rem; 
+    font-family:Franklin Gothic Medium; 
+    font-size: 1rem;
+    background-color: #FCAF17; 
+    color:white;
+    margin-left:1rem;
+    text-align: center;
+}
+
+.footer{
+    margin-top:5rem;
+    height:10rem;
+    width: 100%;
+    background-color: black;
+    padding-top:5rem;
+}
+
+.footer-text{
+    font-family: franklin gothic medium;
+    font-size: 1.1rem;
+    color:white;
+    text-align: center;
+}
