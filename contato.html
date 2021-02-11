@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" type="text/css" href="assets/css.css">
 
     <title>Grand Theft Auto V | Contato</title>
 </head>
@@ -24,22 +24,26 @@
     </br>
     <form class="form">
         <label class="form-name" for="nome">Nome: </label>&nbsp;&nbsp;&nbsp;
-        <input class="form-area" type="text" id="nome">
-        </p>
+        <input class="form-area" type="text" id="nome" onkeyup="validaNome()"> <!-- alert aparece assim que o user soltar a tecla -->
+        <div id="txtNome"></div>
         <label class="form-name" for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input class="form-area" type="text" id="email">
+        <input class="form-area" type="text" id="email" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
         </p>
         <label class="form-name" for="assunto">Assunto: </label>
-        <textarea class="form-area" name="assunto" id="assunto" cols="60" rows="5"></textarea>
+        <textarea class="form-area" name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+        <div id="txtAssunto"></div>
     </form>
     </p>
     <center>
-    <button class="button-send">Enviar</button>
+    <button onclick="enviar()" class="button-send">Enviar</button>
 </center>
     <div class="footer">
         <div class="footer-text">
             Todos os direitos reservados a Bárbara Liboni Guerra &copy;
         </div>
+
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
