@@ -1,4 +1,4 @@
-# Exercícios em Java e Portugol
+# Exercícios em HTML, CSS, JS e Bootstrap
 
 Esse repositório é destinado a arquivos referentes a fundamentos web e desenvolvimento front-end trabalhados no curso de Desenvolvedor Full Stack Júnior da Generation Brasil.
 
